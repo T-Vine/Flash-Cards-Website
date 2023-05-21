@@ -1,0 +1,165 @@
+body {
+    background-color: #0C640C;
+}
+nav  {
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  transition: top 0.3s;
+}
+nav button {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  height: 10px;
+  margin: auto;
+  justify-content: center;
+} 
+nav button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {
+    margin: auto;
+    
+    background: #e7e5e5;
+    border-radius: 20px;
+    width: 200px;
+    height: 160px;
+    text-align: center;
+    opacity: 0.91;  
+    padding-bottom: 50px; 
+    
+}
+.main {
+    border-radius: 10px;
+    border-color: #000;
+  
+}
+.btn {
+    margin: auto;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background: #083fb8;
+    cursor: grab;
+}
+.btn:hover {
+    background-color: #06318f;
+}
+.form_control {
+    height: 20px;   
+    border-radius: 10px;
+    border-color: #000;
+    box-shadow: rgba(8, 73, 11, 0.35) 5px 5px 10px 10px;
+}
+.row h1 {
+    justify-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container .datacol table tbody tr td a.delete{
+    background-color: #f44336; 
+    color: white; 
+    padding: 9px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    border-radius: 5px; 
+    opacity: 0.9;
+    display: none;
+    
+}
+.container .datacol table {
+    background-color: #fff; 
+    margin:auto; 
+    margin-top: 20px;   
+    width: 30%; 
+    height: auto;
+}
+
+.container .datacol table tbody tr td a.edit{
+    background-color: blue; 
+    color: white; 
+    padding: 9px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    border-radius: 5px; 
+    margin-left: 10px;
+    opacity: 0.9;
+    display: none;
+}
+/* .container .datacol table tbody tr td.edit {
+  display: none;
+} */
+.container .datacol table tbody tr td a.delete:hover{
+    background-color: #c50b0b !important;
+}
+.container .datacol table tbody tr td a.edit:hover{
+    background-color: #040547 !important;
+}
+
+
+/* Flip Cards
+*/
+.flip-card {
+    background-color: transparent;
+    width: 450px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: green;
+    color: black;
+    padding: 0px 0;
+  }
+  .flip-card-front h1 {
+    padding: 85px 0;
+    text-align: center;
+  }
+  .flip-card-back h3 {
+    padding-top: 70px 0;
+    padding-left: 20px;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: blue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  tr:nth-child(even) .flip-card-front {
+    background-color: cyan;
+}   
