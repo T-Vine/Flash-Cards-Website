@@ -1,0 +1,1 @@
+A PHP-based webapp for revision cards. UI is currently limited and connects to a LOCAL databse (connected). Involves flip cards, and stores data in the database (requires knowledge of mySQL to set up).
