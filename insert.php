@@ -1,4 +1,5 @@
 <?php
+//code for inserting new flash-cards.
 $LIST = $_POST["list"];
 $MAIN = $_POST["main"];
 include "config.php";

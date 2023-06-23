@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- This contains code for editing existing flash cards. Note that a new screen is created to do this, rather than an overlay, and hence this has a different URL.  -->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">

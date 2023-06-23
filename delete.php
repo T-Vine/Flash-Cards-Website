@@ -1,4 +1,5 @@
 <?php
+//Code for deleting flash-cards.
 include "config.php";
 echo $id = $_GET["ID"];
 mysqli_query($con, "DELETE FROM `tblrevision` WHERE Id = $id");
