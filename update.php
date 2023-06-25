@@ -1,5 +1,5 @@
 <?php 
-//code for updating. ID is used to locate the card. List is the title and main is the body of the card.
+// Code for updating. ID is used to locate the card. List is the title and main is the body of the card.
 include "config.php";
 
 $list = $_POST["list"];
